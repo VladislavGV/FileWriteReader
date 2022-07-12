@@ -12,6 +12,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+// Разобраться с автоимпортом !!!
+
 public class MainActivity extends AppCompatActivity {
     private final static String FILE_NAME = "content.txt";
 
