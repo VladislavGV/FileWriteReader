@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    private File getExternalFilePath(){                           // меняем место хранения файла
+    private File getExternalFilePath(){                           // меняем место хранения файла для общего доступа
         return new File(getExternalFilesDir(null), FILE_NAME);
 
     }
